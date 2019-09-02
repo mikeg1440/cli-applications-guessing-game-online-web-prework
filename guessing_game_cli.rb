@@ -11,3 +11,7 @@ end
 def prompt_user
   puts "Guess "
 end
+
+def wrong_guess(guess)
+  puts "Sorry! The computer guessed 6."
+end
