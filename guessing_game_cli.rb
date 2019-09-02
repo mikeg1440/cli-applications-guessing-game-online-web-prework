@@ -9,8 +9,8 @@ run_guessing_game
   
   if user_number.to_i == rand_num
     correct_guess
-  elsif user_number == "exit"
-    
+  else
+    wrong_guess
   end
 
 end
@@ -22,6 +22,9 @@ end
 
 def get_input
   resp = gets.chomp
+  if resp.downcase == "exit"
+    
+  end
 end
 
 def wrong_guess(guess)
