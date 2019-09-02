@@ -3,7 +3,7 @@ run_guessing_game
 
   rand_num = rand 1..7
 
-  puts "Guess a number between "
+  puts "Guess a number between 1 and 6"
 
 end
 
