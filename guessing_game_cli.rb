@@ -7,7 +7,11 @@ run_guessing_game
   
   user_number = get_input
   
-  
+  if user_number.to_i == rand_num
+    correct_guess
+  elsif user_number == "exit"
+    
+  end
 
 end
 
