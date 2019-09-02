@@ -15,3 +15,4 @@ end
 def wrong_guess(guess)
   puts "Sorry! The computer guessed #{guess}."
 end
+
