@@ -13,7 +13,7 @@ def prompt_user
 end
 
 def get_input
-  resp = gets
+  resp = gets.chomp
 end
 
 def wrong_guess(guess)
