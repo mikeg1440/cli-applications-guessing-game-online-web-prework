@@ -5,7 +5,7 @@ run_guessing_game
   
   prompt_user
   
-  user_number = 
+  user_number = get_input
 
 end
 
