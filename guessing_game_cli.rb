@@ -23,8 +23,10 @@ end
 def get_input
   resp = gets.chomp
   if resp.downcase == "exit"
-    
+    puts "Goodbye!"
+    exit
   end
+  resp
 end
 
 def wrong_guess(guess)
