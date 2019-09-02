@@ -10,7 +10,7 @@ run_guessing_game
   if user_number.to_i == rand_num
     correct_guess
   else
-    wrong_guess
+    wrong_guess(rand_num)
   end
 
 end
